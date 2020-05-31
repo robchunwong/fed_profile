@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #eadad0;
 }
 /* Link Styles */
 
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #293242;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -70,11 +70,12 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 1.5px solid #a8ad97;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+  border: 2px solid #7fff00;
 }
 .tag {
   background-color: #efefef;
@@ -205,3 +206,7 @@ a.social:hover {
 
 }
 
+div img {
+  width: 100%;
+  height: 200px;
+}
